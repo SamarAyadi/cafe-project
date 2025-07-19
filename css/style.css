@@ -30,10 +30,10 @@ a {
   color: var(--color-dark);
   text-decoration: none;
 }
-p{
+p {
   margin-bottom: 20px;
 }
-.btn{
+.btn {
   display: inline-block;
   padding: 15px 25px;
   border-radius: 30px;
@@ -42,36 +42,55 @@ p{
   font-size: 14px;
   border: 0;
 }
-.btn-dark{
+.btn-dark {
   background: var(--color-dark);
   color: var(--color-text);
 }
-.btn-dark:hover{
+.btn-dark:hover {
   background: var(--color-text);
   color: var(--color-dark);
   border: 1px solid var(--color-dark);
 }
-.my-10{
+.my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.my-20{
+.my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.container{
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  width: 35px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.chip-brown {
+  background: #6e491e;
+}
+.chip-purple {
+  background: #a0006e;
+}
+.container {
   max-width: 1000px;
   display: block;
   margin: auto;
 }
 
-
-.btn-primary{
+.btn-primary {
   background: var(--color-text);
   color: var(--color-dark);
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background: var(--color-dark);
   color: var(--color-text);
 }
@@ -148,32 +167,32 @@ p{
 }
 
 /* features */
-.features{
+.features {
   padding: 100px 0px;
   overflow: auto;
   text-align: center;
 }
 
-.feature{
+.feature {
   float: left;
   width: 50%;
 }
 
 /* person */
 
-.person{
+.person {
   height: 400px;
   background: url(../images/cafe3.jpg) center center/cover;
 }
 
 /* reservation */
-.reservation{
+.reservation {
   padding: 100px 0;
   text-align: center;
 }
 
 /* footer */
-footer{
+footer {
   background: var(--color-dark);
   color: var(--color-text);
   padding: 30px 0;
@@ -184,3 +203,24 @@ footer p {
   margin-bottom: 0;
 }
 
+/* where */
+
+.where {
+  padding: 180px 0 100px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}
+.where-text p {
+  font-size: 18px;
+  font-weight: 700;
+}
